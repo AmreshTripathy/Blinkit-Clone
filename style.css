@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -25,5 +25,51 @@
 
 button {
     border: none;
+    outline: none;
+}
+
+
+/* Nav Section */
+
+.blinkit-navbar {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: sticky;
+    top: 0px;
+    height: 86px;
+    background-color: white;
+}
+
+.logo:hover {
+    background-color: rgb(252, 252, 252);
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+}
+
+.location>p {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.search-bar {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    width: 40vw;
+}
+
+.search-bar>input {
+    border: none;
+    width: 95%;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.search-bar>input:focus {
     outline: none;
 }
