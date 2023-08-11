@@ -72,3 +72,30 @@ function rightScroll_4() {
         behavior: 'smooth'
     });
 }
+
+
+
+// function placeHolder() {
+$(document).ready(function () {
+    var placeHolder = ['Search "milk"',
+     'Search "bread"', 'Search "sugar"',
+      'Search "butter"', 'Search "paneer"',
+       'Search "chocolate"', 'Search "curd"',
+        'Search "rice"', 'Search "egg"'
+        , 'Search "chips"'];
+    var n = 0;
+    var loopLength = placeHolder.length;
+
+    setInterval(function () {
+        var newPlaceholder = placeHolder[n];
+        if (n < loopLength) {
+            n++;
+            $('input').attr('placeholder', newPlaceholder);
+        } else {
+            $('input').attr('placeholder', newPlaceholder);
+            // document.getElementById('input-text').placeHolder = newPlaceholder;
+            n = 0;
+        }
+        console.log(newPlaceholder);
+    }, 2000);
+});

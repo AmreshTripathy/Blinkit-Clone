@@ -84,6 +84,7 @@ button {
     background-color: transparent;
     font-size: 14px;
     color: rgb(153, 153, 153);
+    margin-left: 5px;
 }
 
 .search-bar>input:focus {
@@ -527,4 +528,9 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #999999
 }
