@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Rubik;
 }
 
 ::-webkit-scrollbar {
@@ -323,7 +326,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin-inline: auto;
-
+    margin-top: 70px;
     width: 100%;
 }
 
@@ -382,6 +385,7 @@ button {
 .footer-list-1>li {
     display: inline-block;
     font-size: 14px;
+    line-height: 2.5vh;
 }
 
 .footer-list-1>li>ul {
@@ -393,7 +397,7 @@ button {
 
 .footer-list-1>li>ul>li {
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -434,6 +438,7 @@ button {
 .footer-list-2>li {
     display: inline-block;
     font-size: 14px;
+    line-height: 3vh;
 }
 
 .footer-list-2>li>ul {
@@ -445,7 +450,7 @@ button {
 
 .footer-list-2>li>ul>li {
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -509,7 +514,7 @@ button {
 }
 
 .list-margin {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .list-margin-1 {
