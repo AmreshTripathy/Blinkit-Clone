@@ -93,7 +93,6 @@ $(document).ready(function () {
             $('input').attr('placeholder', newPlaceholder);
         } else {
             $('input').attr('placeholder', newPlaceholder);
-            // document.getElementById('input-text').placeHolder = newPlaceholder;
             n = 0;
         }
         console.log(newPlaceholder);
