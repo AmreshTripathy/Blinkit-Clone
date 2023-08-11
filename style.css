@@ -40,12 +40,13 @@ button {
     z-index: 4;
 }
 
-.logo {
-    margin-left: 10px;
+.blinkit-navbar>div:hover {
+    cursor: pointer;
+    background-color: rgb(252, 252, 252);
 }
 
-.logo:hover {
-    background-color: rgb(252, 252, 252);
+.logo {
+    margin-left: 10px;
 }
 
 .vertical-line {
